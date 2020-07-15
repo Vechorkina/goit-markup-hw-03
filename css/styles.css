@@ -427,7 +427,6 @@ p {
     background: #2F303A;
     display: flex;
     align-items: baseline;- 
-
 }
 
 .footer-container{   
@@ -438,6 +437,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid #e67399;
+    background: #2F303A;
 }
 
 .footer-left {
@@ -506,7 +506,7 @@ p {
     }
 
 .social-links-footer {
-    /* padding-top: 20px; */
+    /* margin-top: 20px; */
     display: flex;
     justify-content: center
 }    
