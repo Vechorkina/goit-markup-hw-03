@@ -135,7 +135,7 @@ p {
     /* background-position: center; */
     padding-top: 200px;
     padding-bottom: 200px;
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
   
 }
 
@@ -188,7 +188,8 @@ p {
 /*Преимущества*/ /********************* О НАС**********************/
 
 .about-us {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .about-us-list {
@@ -261,7 +262,7 @@ p {
 }
 
 .services-container {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -278,7 +279,6 @@ p {
     background-color: #F5F4FA;
 }
 .staff-container{
-    margin-bottom: 94px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -291,7 +291,7 @@ p {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-light-theme-color);
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .team-staff-name {
@@ -347,8 +347,8 @@ p {
 .clients-container {
     justify-content: center;
     text-align: center;
-    margin-bottom: 94px;
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .regular-clients  {
@@ -360,6 +360,15 @@ p {
     margin-right: 30px;
 }
 
+.regular-clients-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+}
 
 /*************************Контакты-footer***************************/
 .footer{
@@ -472,8 +481,8 @@ p {
 
 .filter {
     display: flex;
-    margin-top: 93px;
-    margin-bottom: 34px;
+    padding-top: 93px;
+    padding-bottom: 34px;
     justify-content: center;
 }
 
@@ -518,7 +527,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -528,6 +537,7 @@ p {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-light-theme-color);
+    padding-bottom: 4px;
 }
 
 .our-projects {
@@ -536,6 +546,7 @@ p {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color:  var(--text-light-theme-color);
+    padding-bottom: 20px;
     }
 
 .our-projects-description {
@@ -561,3 +572,6 @@ p {
     margin-bottom: 30px;
 }
 
+.img-project {
+    margin-bottom: 20px;
+}
