@@ -125,7 +125,9 @@ p {
     color: var(--accent-color);
 }
 
-
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
 
 
 
@@ -135,8 +137,6 @@ p {
     /* background-position: center; */
     padding-top: 200px;
     padding-bottom: 200px;
-    /* margin-bottom: 94px; */
-  
 }
 
 .heading-title {
@@ -538,6 +538,7 @@ p {
     letter-spacing: 0.06em;
     color: var(--title-light-theme-color);
     padding-bottom: 4px;
+    padding-left: 24px
 }
 
 .our-projects {
@@ -547,6 +548,7 @@ p {
     letter-spacing: 0.03em;
     color:  var(--text-light-theme-color);
     padding-bottom: 20px;
+    padding-left: 24px;
     }
 
 .our-projects-description {
@@ -560,6 +562,9 @@ p {
 .portfolio-img {
     width: calc((100% - 60px) / 3); 
     justify-content: center;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
     box-sizing: border-box;
 
 } 
